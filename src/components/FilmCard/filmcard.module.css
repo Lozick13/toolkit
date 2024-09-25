@@ -1,0 +1,26 @@
+.film-card {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 100px;
+	background: #d6d0c8;
+	padding: 20px;
+	width: 80%;
+	height: 500px;
+	color: #2e2b26;
+	font-family: 'Open Sans', sans-serif;
+}
+.film-card__poster {
+	height: 100%;
+}
+.film-card__info {
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+	gap: 10px;
+	width: 380px;
+	font-size: 24px;
+}
+.film-card__bold {
+	font-weight: 600;
+}

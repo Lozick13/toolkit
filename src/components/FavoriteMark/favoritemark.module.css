@@ -1,0 +1,10 @@
+.favorite-mark {
+	transition: 0.5s;
+	opacity: 0.5;
+}
+.favorite-mark:hover {
+	opacity: 1;
+}
+.favorite-mark_active {
+	opacity: 1;
+}

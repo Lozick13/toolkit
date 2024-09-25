@@ -1,0 +1,1 @@
+export * from './FavoriteMark.tsx';

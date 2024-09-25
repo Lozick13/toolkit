@@ -1,0 +1,30 @@
+.film-preview {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	background: #d6d0c8;
+	padding: 15px;
+	width: 220px;
+	height: 380px;
+	color: #2e2b26;
+}
+.film-preview__header {
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+	width: 100%;
+	height: 60px;
+}
+.film-preview__header span {
+	align-self: flex-end;
+}
+.film-preview__favorites {
+	position: absolute;
+	top: -5px;
+	right: -5px;
+}
+.film-preview__poster {
+	width: 190px;
+	cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.films {
+	display: flex;
+	width: 80%;
+	align-items: center;
+	justify-content: center;
+}
+.films__wrapper {
+	display: flex;
+	column-gap: 30px;
+	row-gap: 20px;
+	flex-wrap: wrap;
+	width: 1220px;
+}
